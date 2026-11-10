@@ -1,0 +1,21 @@
+{
+  "name": "video-merger",
+  "version": "1.0.0",
+  "description": "موقع دمج الفيديوهات على Vercel مع Turso و ffmpeg",
+  "private": true,
+  "main": "scripts/dev.js",
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "test:unit": "node scripts/test.js",
+    "test:http": "node scripts/http-test.js"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "ffmpeg-static": "^5.3.0",
+    "ffprobe-static": "^3.1.0",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
